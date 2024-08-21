@@ -13,7 +13,8 @@ PC2HS is a crude, yet usable M4L device that triggers Device Hot-Swaps based on 
 ### Steps for usage:
 1. Create Config directory and note its PATH
 2. Ensure that `pc2hs.applescript` is located in PATH
-3. The `pc2hs.cfg` config file can be precreated if desired with the following format: `pc#, presetname` .  Note: 0=pc1 and banks are not yet supported. 
+3. The `pc2hs.cfg` config file can be pre-created if desired with the following format: `pc#, presetname` .  Note: 0=pc1 and banks are not yet supported.
+4. IMPORTANT: This solution assumes that the `1` key is mapped to the target track to perform HotSwaps on. Device should also be loaded into this track.
 
 Here's an example file that works in my test environment. Note that it assumes presets with these names exist.
 ```
