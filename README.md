@@ -7,7 +7,7 @@ PC2HS is a crude, yet usable M4L device that triggers Device Hot-Swaps based on 
 ### Requirements: 
 1.  Only works with MacOS  - must have AppleScript (osascript)
 2. Max "shell" object must be installed. See: https://github.com/jeremybernstein/shell/releases/tag/1.0b3
-3. Tested on Live Suite 11
+3. Tested on Live Suite 11 (11.3.12)
 4. Currently only supports device hot-swaps for a single (1) track
 
 ### Steps for usage:
